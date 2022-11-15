@@ -1,7 +1,7 @@
-- NOM : 
-- PRÉNOM :
+- NOM : Boucard
+- PRÉNOM : Emilien
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/file/sg8108GdwliGDWYo9Qo2jC/Maquettes-projet-individuel-%E2%80%94-Emilien-Boucard?node-id=0%3A1&t=KA8zszIIVggeASHi-0
 
 # Structure de départ pour le projet individuel.
 
