@@ -1,7 +1,14 @@
+/**
+   * format images
+   */
+
 img {
     max-width: 100%;
 }
 
+/**
+   * Couleurs BG
+   */
 body {
     background-color: var(--beige);
 }
@@ -12,4 +19,14 @@ header {
 
 footer {
     background-color: var(--noir);
+}
+
+/**
+   * Typo Titres
+   */
+
+h1,
+h2,
+h3 {
+    font-family: var();
 }
