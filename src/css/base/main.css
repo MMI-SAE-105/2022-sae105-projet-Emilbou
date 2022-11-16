@@ -1,7 +1,15 @@
+img {
+    max-width: 100%;
+}
+
 body {
     background-color: var(--beige);
 }
 
 header {
+    background-color: var(--noir);
+}
+
+footer {
     background-color: var(--noir);
 }
