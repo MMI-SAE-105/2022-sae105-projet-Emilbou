@@ -58,3 +58,9 @@
     border-style: solid;
     border-color: var(--noir);
 }
+
+.logo {
+margin-left: auto;
+margin-right: auto;
+    padding: 20px;
+}
