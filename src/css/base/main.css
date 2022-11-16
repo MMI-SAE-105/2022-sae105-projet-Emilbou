@@ -28,3 +28,8 @@ span,
 ul {
     font-family: var(--lato);
 }
+
+hr {
+    margin: 20px;
+    color: var(--beige);
+}

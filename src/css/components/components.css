@@ -30,3 +30,12 @@ button {
     border: none;
 
 }
+
+button:hover {
+    background-color: var(--rouge);
+    opacity: 80%;
+}
+
+.test {
+    display: flex;
+}
