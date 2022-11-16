@@ -33,3 +33,7 @@ hr {
     margin: 20px;
     color: var(--beige);
 }
+
+.margin {
+    margin-left: 20px;
+}

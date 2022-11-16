@@ -7,18 +7,26 @@
     padding: 20px;
 }
 
+/* "Fond" */
 .div1 {
     grid-area: 1 / 1 / 5 / 6;
     background-color: var(--noir);
-    border: 2px;
-    border-color: var(--beige);
     border-radius: 20px;
+}
+
+/* bouton */
+.alignementbouton {
+    display: flex;
+    flex-shrink: inherit;
+    vertical-align: middle;
 }
 
 .div2 {
     grid-area: 4 / 2 / 6 / 4;
+    margin-top: 20px;
 }
 
+/* Texte titre */
 .div3 {
     grid-area: 1 / 1 / 5 / 3;
     align-items: center;
@@ -31,6 +39,7 @@
 
 }
 
+/* image */
 .arrondie {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
