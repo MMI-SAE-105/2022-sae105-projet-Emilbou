@@ -1,4 +1,6 @@
 header {
+    position: sticky;
+    top: 0px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
