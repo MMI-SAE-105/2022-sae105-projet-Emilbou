@@ -1,0 +1,18 @@
+:root {
+    /* Color styles */
+    --rouge: rgba(189, 23, 44, 1);
+    --beige: rgba(250, 240, 224, 1);
+    --noir: rgba(58, 57, 65, 1);
+
+    /* Text-size styles */
+    --chapô: 19px;
+    --titre-article: 40px;
+    --corps: 16px;
+    --nav-menu: 16px;
+    --footer: 18px;
+    --sous-titre: 19px;
+    --alt-image: 14px;
+
+}
+
+;

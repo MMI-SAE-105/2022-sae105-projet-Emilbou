@@ -1,1 +1,7 @@
-body {}
+body {
+    background-color: var(--beige);
+}
+
+header {
+    background-color: var(--noir);
+}

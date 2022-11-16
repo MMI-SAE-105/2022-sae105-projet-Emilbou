@@ -5,11 +5,11 @@
 /**
       * Librairies
       */
-@import "Vendors/Normalize.css";
+@import "css/Vendors/Normalize.css";
 /**
       * Variables
       */
-@import "utils/variables.css";
+@import "css/utils/variables.css";
 /**
       * base
       */
@@ -17,8 +17,8 @@
 /**
       * règles de composition
       */
-@import "layout/compo.css";
+@import "css/layout/compo.css";
 /**
       * Composants
       */
-@import "components/components.css";
+@import "css/components/components.css";
