@@ -13,6 +13,9 @@
     --sous-titre: 19px;
     --alt-image: 14px;
 
+    /* font family styles */
+    --lato: 'Lato', sans-serif;
+    --ubuntu: 'Ubuntu', sans-serif;
 }
 
 ;

@@ -28,5 +28,11 @@ footer {
 h1,
 h2,
 h3 {
-    font-family: var();
+    font-family: var(--ubuntu)
+}
+
+p,
+span,
+ul {
+    font-family: var(--lato);
 }
