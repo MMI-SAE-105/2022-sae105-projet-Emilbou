@@ -13,14 +13,6 @@ body {
     background-color: var(--beige);
 }
 
-header {
-    background-color: var(--noir);
-}
-
-footer {
-    background-color: var(--noir);
-}
-
 /**
    * Typo Titres
    */
