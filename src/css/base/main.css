@@ -1,21 +1,21 @@
-/**
-   * format images
-   */
+/* format images*/
 
 img {
     max-width: 100%;
 }
 
-/**
-   * Couleurs BG
-   */
+/* Couleurs BG */
 body {
     background-color: var(--beige);
 }
 
-/**
-   * Typo Titres
-   */
+
+/*Typo Titres*/
+li {
+    list-style-type: none;
+}
+
+/*Typo Titres*/
 
 h1,
 h2,

@@ -9,12 +9,14 @@ header {
 
 footer {
     background-color: var(--noir);
+    font-family: var(--lato);
+    color: var(--beige);
 }
 
-/* Cards styles */
-card {
-    background-color: var(--noir);
-    padding: 30px;
+a:-webkit-any-link {
+    color: var(--beige);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 button {
@@ -42,5 +44,3 @@ button:hover {
 .test {
     display: flex;
 }
-
-

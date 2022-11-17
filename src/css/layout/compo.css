@@ -1,3 +1,4 @@
+/* Grids cards */
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -17,7 +18,6 @@
 /* bouton */
 .alignementbouton {
     display: flex;
-    flex-shrink: inherit;
     vertical-align: middle;
 }
 
@@ -63,4 +63,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 30%;
+}
+
+.droite {
+    margin-left: 80%;
 }
