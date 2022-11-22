@@ -11,6 +11,7 @@ footer {
     background-color: var(--noir);
     font-family: var(--lato);
     color: var(--beige);
+    padding: 20px;
 }
 
 a:-webkit-any-link {

@@ -13,6 +13,8 @@ body {
 /*Typo Titres*/
 li {
     list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*Typo Titres*/
@@ -36,4 +38,14 @@ hr {
 
 .marginl {
     margin-left: 20px;
+}
+
+p.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p.droite {
+    margin-left: 60%;
+
 }
