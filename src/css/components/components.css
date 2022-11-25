@@ -45,3 +45,39 @@ button:hover {
 .test {
     display: flex;
 }
+
+
+
+/* Cards article absolute */
+figure.jap {
+    position: relative;
+    margin: 0 -1em;
+    padding: 0 1em;
+    overflow: hidden;
+    padding: 20px;
+}
+
+figure.jap::before {
+    content: url(public\img\composants\Ellipse17.svg);
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+
+}
+
+figure.jap::after {
+    content: url(public\img\composants\Ellipse18.svg);
+    position: absolute;
+    right: -20px;
+    top: 50px;
+
+
+}
+
+figure.jap img {
+    border-radius: 20px;
+}
+
+figure.jap figcaption {
+    text-align: right;
+}
