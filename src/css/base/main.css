@@ -27,7 +27,8 @@ h3 {
 
 p,
 span,
-ul {
+ul,
+figcaption {
     font-family: var(--lato);
 }
 
