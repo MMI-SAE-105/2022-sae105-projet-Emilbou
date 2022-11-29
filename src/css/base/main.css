@@ -20,10 +20,9 @@ li {
 /*Typo Titres*/
 
 h1,
-h2,
-{
-font-family: var(--ubuntu);
-color: var(--noir);
+h2 {
+    font-family: var(--ubuntu);
+    color: var(--noir);
 }
 
 h3 {
