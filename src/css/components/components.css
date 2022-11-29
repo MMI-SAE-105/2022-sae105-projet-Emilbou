@@ -48,7 +48,7 @@ button:hover {
 
 
 
-/* Cards article absolute */
+/* Cards article 1 absolute */
 figure.jap {
     position: relative;
     margin: 0 0em;
@@ -79,5 +79,39 @@ figure.jap img {
 }
 
 figure.jap figcaption {
+    text-align: right;
+}
+
+/* Cards article 1 absolute */
+figure.jap2 {
+    position: relative;
+    margin: 0 0em;
+    padding: 0 1em;
+    overflow: hidden;
+    padding: 20px;
+}
+
+figure.jap2::before {
+    content: url(../../../public/img/composants/Ellipse19.svg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+figure.jap2::after {
+    content: url(../../../public/img/composants/Ellipse20.svg);
+    position: absolute;
+    right: -32px;
+    top: 160px;
+
+
+}
+
+figure.jap2 img {
+    border-radius: 10px;
+}
+
+figure.jap2 figcaption {
     text-align: right;
 }
