@@ -21,8 +21,13 @@ li {
 
 h1,
 h2,
+{
+font-family: var(--ubuntu);
+color: var(--noir);
+}
+
 h3 {
-    font-family: var(--ubuntu)
+    font-family: var(--beige);
 }
 
 p,
@@ -30,6 +35,7 @@ span,
 ul,
 figcaption {
     font-family: var(--lato);
+    color: var(--noir);
 }
 
 hr {
