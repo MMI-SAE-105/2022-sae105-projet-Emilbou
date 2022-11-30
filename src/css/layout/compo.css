@@ -82,3 +82,7 @@
 p.paddingtexte {
     padding-top: 40px;
 }
+
+p.paddingtexte:last-child {
+    padding-bottom: 20px;
+}
