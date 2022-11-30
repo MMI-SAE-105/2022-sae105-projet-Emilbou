@@ -111,3 +111,44 @@ figure.jap2 img {
 figure.jap2 figcaption {
     text-align: right;
 }
+
+
+/*cards filmographie */
+.filmographie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+}
+
+.fimographie1 {
+    grid-area: 1 / 1 / 4 / 4;
+    background-color: var(--beige);
+    border-radius: 20px;
+}
+
+.filmographie2 {
+    grid-area: 1 / 1 / 4 / 4;
+    padding: 9px;
+    border: 15px;
+    border-color: var(--noir);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.filmographie3 {
+    grid-area: 3 / 1 / 5 / 4;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    top: 70px;
+    background-color: var(--noir);
+    color: var(--beige);
+    position: absolute;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-decoration: underline;
+    font-family: var(--ubuntu);
+}
