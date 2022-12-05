@@ -17,8 +17,7 @@
 
 /* bouton */
 .alignementbouton {
-    display: flex;
-    vertical-align: middle;
+    align-self: center;
 }
 
 .div2 {
