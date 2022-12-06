@@ -18,6 +18,7 @@
 /* bouton */
 .alignementbouton {
     align-self: center;
+    vertical-align: middle;
 }
 
 .div2 {
@@ -91,16 +92,26 @@ input:invalid {
     style
 }
 
+;
+
 @keyframes shake {
     25% {
         transform: translateX(4px)
     }
 
+    ;
+
     50% {
         transform: translateX(-4px)
     }
 
+    ;
+
     75% {
         transform: translateX(4px)
     }
+
+    ;
 }
+
+;
