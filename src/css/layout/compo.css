@@ -86,32 +86,3 @@ p.paddingtexte {
 p.paddingtexte:last-child {
     padding-bottom: 20px;
 }
-
-input:invalid {
-    animation: shake .3s;
-    style
-}
-
-;
-
-@keyframes shake {
-    25% {
-        transform: translateX(4px)
-    }
-
-    ;
-
-    50% {
-        transform: translateX(-4px)
-    }
-
-    ;
-
-    75% {
-        transform: translateX(4px)
-    }
-
-    ;
-}
-
-;
