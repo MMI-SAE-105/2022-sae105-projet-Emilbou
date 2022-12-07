@@ -92,3 +92,26 @@ p.paddingtexte:last-child {
 .apropos_image {
     width: 50%;
 }
+
+.apropos_figcapture {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.apropos_p {
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.miseenformeicones_ul {
+    margin-left: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 2rem;
+}
+
+.miseenformeicones_li {
+    width: 35px;
+}
