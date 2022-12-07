@@ -5,13 +5,13 @@
     --noir: rgba(58, 57, 65, 1);
 
     /* Text-size styles */
-    --chapô: 19px;
-    --titre-article: 40px;
-    --corps: 16px;
-    --nav-menu: 16px;
-    --footer: 18px;
-    --sous-titre: 19px;
-    --alt-image: 14px;
+    --chapô: 1.1875rem;
+    --titre-article: 2.5rem;
+    --corps: 1rem;
+    --nav-menu: 1rem;
+    --footer: 1.125rem;
+    --sous-titre: 1.1875rem;
+    --alt-image: 0.875rem;
 
     /* font family styles */
     --lato: 'Lato', sans-serif;

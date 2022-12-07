@@ -13,8 +13,8 @@ body {
 /*Typo Titres*/
 li {
     list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 /*Typo Titres*/
@@ -38,17 +38,17 @@ figcaption {
 }
 
 hr {
-    margin: 20px;
+    margin: 1.25rem;
     color: var(--beige);
 }
 
 .marginl {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 p.padding {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 p.droite {

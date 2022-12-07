@@ -3,16 +3,16 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    padding: 20px;
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+    padding: 1.25rem;
 }
 
 /* "Fond" */
 .div1 {
     grid-area: 1 / 1 / 5 / 6;
     background-color: var(--noir);
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 /* bouton */
@@ -23,28 +23,28 @@
 
 .div2 {
     grid-area: 4 / 1 / 6 / 4;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 1.25rem;
+    margin-left: 1.875rem;
 }
 
 /* Texte titre */
 .div3 {
     grid-area: 1 / 1 / 5 / 3;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     margin-top: auto;
     margin-bottom: auto;
     font-family: var(--ubuntu);
     color: var(--beige);
-    font-size: 20px;
+    font-size: 1.25rem;
 
 }
 
 /* image */
 .arrondie {
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+    -moz-border-radius: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    border-radius: 1.25rem;
 }
 
 .div4 {
@@ -53,16 +53,16 @@
     width: 90%;
     display: flex;
     vertical-align: auto;
-    border: 3px;
-    border-radius: 20px;
+    border: 0.1875rem;
+    border-radius: 1.25rem;
     border-style: solid;
     border-color: var(--noir);
 }
 
 .logo {
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
     margin: auto;
 }
 
@@ -73,20 +73,20 @@
 
 
 .margin {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .paddingarticles>* {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 p.paddingtexte {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 p.paddingtexte:last-child {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .apropos_image {
@@ -99,19 +99,19 @@ p.paddingtexte:last-child {
 }
 
 .apropos_p {
-    padding-left: 20px;
-    margin-top: 30px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    margin-top: 1.875rem;
+    padding-right: 1.25rem;
 }
 
 .miseenformeicones_ul {
     margin-left: 45%;
     display: flex;
     justify-content: space-between;
-    padding-right: 20px;
+    padding-right: 1.25rem;
     padding-bottom: 2rem;
 }
 
 .miseenformeicones_li {
-    width: 35px;
+    width: 2.1875rem;
 }
