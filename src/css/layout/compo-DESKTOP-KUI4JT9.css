@@ -17,7 +17,7 @@
 
 /* bouton */
 .alignementbouton {
-    align-self: center;
+
     vertical-align: middle;
 }
 
@@ -59,13 +59,11 @@
     border-color: var(--noir);
 }
 
-.logo {
-    display: block;
+#logo {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: auto;
+    margin-left: 30%;
 }
-
 
 #scrollup {
     margin-left: 80%;
@@ -89,6 +87,21 @@ p.paddingtexte:last-child {
     padding-bottom: 20px;
 }
 
-.apropos_image {
-    width: 50%;
+input:invalid {
+    animation: shake .3s;
+    style
+}
+
+@keyframes shake {
+    25% {
+        transform: translateX(4px)
+    };
+
+    50% {
+        transform: translateX(-4px)
+    };
+
+    75% {
+        transform: translateX(4px)
+    };
 }
