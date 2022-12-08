@@ -152,3 +152,31 @@ figure.jap2 figcaption {
     text-decoration: underline;
     font-family: var(--ubuntu);
 }
+
+input {
+    background-color: var(--beige);
+    font-family: var(--lato);
+    color: var(--lato);
+    padding: 0.375rem;
+    border: var(--noir) solid 2px;
+    margin-bottom: 0.3125rem;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
+    width: 80%;
+}
+
+textarea {
+    background-color: var(--beige);
+    font-family: var(--lato);
+    color: var(--lato);
+    padding: 0.375rem;
+    border: var(--noir) solid 2px;
+    margin-bottom: 0.3125rem;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
+    width: 80%;
+}
+
+.input_message {
+    max-height: 18.75rem;
+}
