@@ -122,3 +122,9 @@ p.paddingtexte:last-child {
 .test {
     background-position: bottom;
 }
+
+.buttoncontact {
+    padding: 1.25rem;
+    font-size: var(--chapô);
+    margin-left: 70%;
+}
