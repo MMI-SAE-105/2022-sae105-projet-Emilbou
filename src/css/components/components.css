@@ -15,12 +15,6 @@ footer {
     padding: 1.25rem;
 }
 
-a:-webkit-any-link {
-    color: var(--beige);
-    cursor: pointer;
-    text-decoration: none;
-}
-
 button {
     display: inline-block;
     background-color: var(--rouge);
@@ -36,121 +30,6 @@ button {
     width: auto;
     border: none;
 
-}
-
-.test {
-    display: flex;
-}
-
-
-
-/* Cards article 1 absolute */
-figure.jap {
-    position: relative;
-    margin: 0 0em;
-    padding: 0 1em;
-    overflow: hidden;
-    padding: 1.25rem;
-}
-
-figure.jap::before {
-    content: url(../../../public/img/composants/Ellipse17.svg);
-    position: absolute;
-    bottom: 0.875rem;
-    left: 3.125rem;
-
-}
-
-figure.jap::after {
-    content: url(../../../public/img/composants/Ellipse18.svg);
-    position: absolute;
-    right: -2.5rem;
-    top: 3.125rem;
-
-
-}
-
-figure.jap img {
-    border-radius: 0.625rem;
-}
-
-figure.jap figcaption {
-    text-align: right;
-}
-
-/* Cards article 1 absolute */
-figure.jap2 {
-    position: relative;
-    margin: 0 0em;
-    padding: 0 1em;
-    overflow: hidden;
-    padding: 1.25rem;
-}
-
-figure.jap2::before {
-    content: url(../../../public/img/composants/Ellipse19.svg);
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-
-}
-
-figure.jap2::after {
-    content: url(../../../public/img/composants/Ellipse20.svg);
-    position: absolute;
-    right: -2rem;
-    top: 10rem;
-
-
-}
-
-figure.jap2 img {
-    border-radius: 0.625rem;
-}
-
-figure.jap2 figcaption {
-    text-align: right;
-}
-
-
-/*cards filmographie */
-.filmographie {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0rem;
-    grid-row-gap: 0rem;
-    position: relative;
-}
-
-.fimographie1 {
-    grid-area: 1 / 1 / 4 / 4;
-    background-color: var(--beige);
-    border-radius: 1.25rem;
-}
-
-.filmographie2 {
-    grid-area: 1 / 1 / 4 / 4;
-    padding: 0.5625rem;
-    border: 0.9375rem;
-    border-color: var(--noir);
-    border-style: solid;
-    border-radius: 1.25rem;
-}
-
-.filmographie3 {
-    grid-area: 3 / 1 / 5 / 4;
-    text-align: center;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-    top: 4.375rem;
-    background-color: var(--noir);
-    color: var(--beige);
-    position: absolute;
-    margin-left: 5.625rem;
-    margin-right: 5.625rem;
-    text-decoration: underline;
-    font-family: var(--ubuntu);
 }
 
 input {

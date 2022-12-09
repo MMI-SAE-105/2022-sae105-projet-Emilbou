@@ -1,0 +1,67 @@
+/* Cards article 1 absolute */
+figure.jap {
+    position: relative;
+    margin: 0 0em;
+    padding: 0 1em;
+    overflow: hidden;
+    padding: 1.25rem;
+}
+
+figure.jap::before {
+    content: url(../../../public/img/composants/Ellipse17.svg);
+    position: absolute;
+    bottom: 0.875rem;
+    left: 3.125rem;
+
+}
+
+figure.jap::after {
+    content: url(../../../public/img/composants/Ellipse18.svg);
+    position: absolute;
+    right: -2.5rem;
+    top: 3.125rem;
+
+
+}
+
+figure.jap img {
+    border-radius: 0.625rem;
+}
+
+figure.jap figcaption {
+    text-align: right;
+}
+
+/* Cards article 1 absolute */
+figure.jap2 {
+    position: relative;
+    margin: 0 0em;
+    padding: 0 1em;
+    overflow: hidden;
+    padding: 1.25rem;
+}
+
+figure.jap2::before {
+    content: url(../../../public/img/composants/Ellipse19.svg);
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+
+}
+
+figure.jap2::after {
+    content: url(../../../public/img/composants/Ellipse20.svg);
+    position: absolute;
+    right: -2rem;
+    top: 10rem;
+
+
+}
+
+figure.jap2 img {
+    border-radius: 0.625rem;
+}
+
+figure.jap2 figcaption {
+    text-align: right;
+}

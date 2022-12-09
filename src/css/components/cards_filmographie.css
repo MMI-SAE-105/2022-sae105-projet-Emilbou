@@ -1,0 +1,39 @@
+/*cards filmographie */
+.filmographie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+    position: relative;
+}
+
+.fimographie1 {
+    grid-area: 1 / 1 / 4 / 4;
+    background-color: var(--beige);
+    border-radius: 1.25rem;
+}
+
+.filmographie2 {
+    grid-area: 1 / 1 / 4 / 4;
+    padding: 0.5625rem;
+    border: 0.9375rem;
+    border-color: var(--noir);
+    border-style: solid;
+    border-radius: 1.25rem;
+}
+
+.filmographie3 {
+    grid-area: 3 / 1 / 5 / 4;
+    text-align: center;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    top: 4.375rem;
+    background-color: var(--noir);
+    color: var(--beige);
+    position: absolute;
+    margin-left: 5.625rem;
+    margin-right: 5.625rem;
+    text-decoration: underline;
+    font-family: var(--ubuntu);
+}
