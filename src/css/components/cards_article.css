@@ -1,5 +1,5 @@
 /* Cards article 1 absolute */
-figure.jap {
+figure.Card_article {
     position: relative;
     margin: 0 0em;
     padding: 0 1em;
@@ -7,7 +7,7 @@ figure.jap {
     padding: 1.25rem;
 }
 
-figure.jap::before {
+figure.Card_article::before {
     content: url(../../../public/img/composants/Ellipse17.svg);
     position: absolute;
     bottom: 0.875rem;
@@ -15,7 +15,7 @@ figure.jap::before {
 
 }
 
-figure.jap::after {
+figure.Card_article::after {
     content: url(../../../public/img/composants/Ellipse18.svg);
     position: absolute;
     right: -2.5rem;
@@ -24,16 +24,16 @@ figure.jap::after {
 
 }
 
-figure.jap img {
+figure.Card_article img {
     border-radius: 0.625rem;
 }
 
-figure.jap figcaption {
+figure.Card_article figcaption {
     text-align: right;
 }
 
 /* Cards article 1 absolute */
-figure.jap2 {
+figure.Card_article2 {
     position: relative;
     margin: 0 0em;
     padding: 0 1em;
@@ -41,7 +41,7 @@ figure.jap2 {
     padding: 1.25rem;
 }
 
-figure.jap2::before {
+figure.Card_article2::before {
     content: url(../../../public/img/composants/Ellipse19.svg);
     position: absolute;
     top: 0rem;
@@ -49,7 +49,7 @@ figure.jap2::before {
 
 }
 
-figure.jap2::after {
+figure.Card_article2::after {
     content: url(../../../public/img/composants/Ellipse20.svg);
     position: absolute;
     right: -2rem;
@@ -58,10 +58,10 @@ figure.jap2::after {
 
 }
 
-figure.jap2 img {
+figure.Card_article2 img {
     border-radius: 0.625rem;
 }
 
-figure.jap2 figcaption {
+figure.Card_article2 figcaption {
     text-align: right;
 }
