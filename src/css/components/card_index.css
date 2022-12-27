@@ -58,3 +58,26 @@
     border-style: solid;
     border-color: var(--noir);
 }
+.Card_parent span{
+    font-family: var(--ubuntu);
+}
+.Card_span_WA{
+    color: var(--beige);
+    font-size: 33px;
+}
+.Card_span_WA2{
+    color: var(--beige);
+    font-size: 14px;
+    line-height: 1em;
+    font-style: italic;
+}
+.Card_span_KINKAKU{
+    color: var(--beige);
+    font-size: 20px;
+}
+.Card_span_KINKAKU2{
+    color: var(--beige);
+    font-size: 14px;
+    line-height: 1em;
+    font-style: italic;
+}
