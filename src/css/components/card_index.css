@@ -3,16 +3,16 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0rem;
-    grid-row-gap: 0rem;
-    padding: 1.25rem;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 20px;
 }
 
 /* "Fond" */
 .Card_bg {
     grid-area: 1 / 1 / 5 / 6;
     background-color: var(--noir);
-    border-radius: 1.25rem;
+    border-radius: 20px;
 }
 
 /* bouton */
@@ -23,28 +23,28 @@
 
 .Card_btn {
     grid-area: 4 / 1 / 6 / 4;
-    margin-top: 1.25rem;
-    margin-left: 1.875rem;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 /* Texte titre */
 .Card_txt {
     grid-area: 1 / 1 / 5 / 3;
     align-items: center;
-    margin-left: 1.875rem;
+    margin-left: 30px;
     margin-top: auto;
     margin-bottom: auto;
     font-family: var(--ubuntu);
     color: var(--beige);
-    font-size: 1.25rem;
+    font-size: 20px;
 
 }
 
 /* image */
 .Card_border_radius {
-    -moz-border-radius: 1.25rem;
-    -webkit-border-radius: 1.25rem;
-    border-radius: 1.25rem;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .Card_img {
@@ -53,45 +53,66 @@
     width: 90%;
     display: flex;
     vertical-align: auto;
-    border: 0.1875rem;
-    border-radius: 1.25rem;
+    border: 3px;
+    border-radius: 20px;
     border-style: solid;
     border-color: var(--noir);
 }
 .Card_parent span{
     font-family: var(--ubuntu);
+    line-height: 0.0625rem;
 }
 .Card_span_WA{
     color: var(--beige);
-    font-size: 33px;
+    font-size: 2.0625rem;
 }
 .Card_span_WA2{
     color: var(--beige);
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1em;
     font-style: italic;
 }
 .Card_span_KINKAKU{
     color: var(--beige);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .Card_span_KINKAKU2{
     color: var(--beige);
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1em;
     font-style: italic;
 }
 .Card_span_CASTLE{
     color: var(--beige);
-    font-size: 19px;
+    font-size: 1.1875rem;
 }
 .Card_span_MUSIC{
     color: var(--beige);
-    font-size: 33px;
+    font-size: 2.0625rem;
 }
 .Card_span_MUSIC2{
     color: var(--beige);
-    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1em;
+    font-style: italic;
+}
+.Card_span_FUKUSHIMA{
+    color: var(--beige);
+    font-size: 1.25rem;
+}
+.Card_span_FUKUSHIMA2{
+    color: var(--beige);
+    font-size: 0.875rem;
+    line-height: 1em;
+    font-style: italic;
+}
+.Card_span_RELATIONS{
+    color: var(--beige);
+    font-size: 1.5rem;
+}
+.Card_span_RELATIONS2{
+    color: var(--beige);
+    font-size: 0.875rem;
     line-height: 1em;
     font-style: italic;
 }
