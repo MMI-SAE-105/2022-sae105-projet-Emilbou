@@ -81,3 +81,17 @@
     line-height: 1em;
     font-style: italic;
 }
+.Card_span_CASTLE{
+    color: var(--beige);
+    font-size: 19px;
+}
+.Card_span_MUSIC{
+    color: var(--beige);
+    font-size: 33px;
+}
+.Card_span_MUSIC2{
+    color: var(--beige);
+    font-size: 14px;
+    line-height: 1em;
+    font-style: italic;
+}
