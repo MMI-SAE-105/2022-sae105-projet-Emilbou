@@ -14,7 +14,7 @@ div.frise_parent {
     margin-top: -50px;
 }
 
-.frise_figure {
+.frise_figure_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +22,35 @@ div.frise_parent {
     width: 50%;
     right: 0;
 }
+
+.frise_figure_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    margin-top: 270px;
+ left: 0;
+}
+.frise_figure_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    margin-top: 540px;
+ right: 0;
+}
+.frise_figure_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    margin-top: 810px;
+ left: 0;
+}
+
 .frise_figcaption {
     position: absolute;
     bottom: 6px;
@@ -33,4 +62,7 @@ div.frise_parent {
     padding-right: 5px;
     font-weight: 400;
     font-family: var(--ubuntu);
+    min-width: 160px;
+    display: flex;
+    justify-content: center;
 }
