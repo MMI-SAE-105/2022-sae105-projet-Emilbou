@@ -1,13 +1,5 @@
-/* header {
-    top: 0rem;
-    padding: 0.625rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--noir);
-    position: sticky;
-    z-index: 1;
-}
-*/
+
+
 footer {
     background-color: var(--noir);
     font-family: var(--lato);

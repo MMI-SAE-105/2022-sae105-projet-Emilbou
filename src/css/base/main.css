@@ -62,3 +62,7 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
 }
+
+main {
+    overflow: hidden;
+}
