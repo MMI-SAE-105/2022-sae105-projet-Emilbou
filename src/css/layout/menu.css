@@ -1,0 +1,37 @@
+.nav-toggle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+    content: "";
+    background-color: black;
+    width: 100%;
+    
+    height: 2px;
+    position: absolute;
+    left: 0;
+    
+}
+.nav-toggle-bar::before {
+    
+    top: -10px;
+}
+.nav-toggle-bar::after {
+  
+    top: 10px;
+}
+
+
+
+.menu {
+    background-color: midnightblue;
+}
