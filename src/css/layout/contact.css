@@ -1,0 +1,15 @@
+.contact-main{
+    padding: 20px;
+}
+.contact-tel{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.contact-object{
+    margin-bottom: 20px;
+}
+.contact-textearea{
+    
+    min-height: 260px;
+}
