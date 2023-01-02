@@ -7,3 +7,23 @@
     padding-left: 1.25rem;
     padding-right: 1.25rem;
 }
+
+.ap-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ap-card img{
+    max-width: 70%;
+}
+.ap-card hr{
+    color: var(--noir);
+    padding: 30px;
+}
+.ap-project-name{
+    font-weight: bold;
+    font-family: var(--ubuntu);
+    line-height: 1px;
+    font-size: 1.5rem;
+}
