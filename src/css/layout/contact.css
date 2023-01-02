@@ -8,8 +8,9 @@
 }
 .contact-object{
     margin-bottom: 20px;
+    max-width: 70% ;
 }
 .contact-textearea{
-    
+    min-width: 90%;
     min-height: 260px;
 }
