@@ -42,3 +42,9 @@
     color: var(--noir);
     margin-top: 10px;
 }
+
+.ap-card a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
