@@ -14,9 +14,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 400px;
 }
 .ap-card img{
     max-width: 70%;
+    border-radius: 100%;
 }
 .ap-card hr{
    padding-left: 70%;
