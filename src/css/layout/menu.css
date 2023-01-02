@@ -34,13 +34,13 @@
 }
 
 .menu-open .nav-toggle-bar {
-    transform: rotate(135deg);
+    transform: rotate(-135deg);
     background-color: var(--noir);
 }
 
 .menu-open .nav-toggle-bar::before,
 .menu-open .nav-toggle-bar::after {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     background-color: var(--noir);
     top: 0;
 }
