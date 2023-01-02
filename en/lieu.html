@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -9,34 +9,62 @@
     <link rel="stylesheet" href="../src/styles.css">
 </head>
 <header>
-    <img src="../public/img//Header/menu 1.svg" alt="icones langues">
-    <img src="../public/img//Header/Group 1.svg" alt="icones menu">
-</header>
-<img id="logo" src="../public/img//composants/Logo.svg" alt="Logo Jibun">
-<main>
+<a href=""><img src="../public/img/Header/menu_1.svg" alt=""></a>
+<div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+    <div class="nav-toggle-bar "></div>
+</div>
+
+        <nav class="menu">
+         
+            <img class="header_logo" src="../public/img//composants/Logo.svg" alt="Logo Jibun">
+            <ul><li><a href="index.html"><img src="../public/img/icones_menu/home.svg" alt=""><span class="menu-span-paddingl"> Accuei </span>l</a></li>
+        <li><a href="lieu.html"><img src="../public/img/icones_menu/kinkaku.svg" alt=""><span class="menu-span-paddingl"> Kinkaku-ji </span></a></li>
+        <li><a href="livre.html"><img src="../public/img/icones_menu/wa.svg" alt=""> <div class="menu-flex-wa"><span class="menu-span-wa"> Wa, </span> <span class="menu-span-wa2 menu-span-paddingl"> l'essence du design japonais</span></div></a></li>
+        <li><a href="film.html"><img src="../public/img/icones_menu/chateau.svg" alt=""><span class="menu-span-paddingl"> Le château Ambulant </span></a></li>
+        <li><a href="musique.html"><img src="../public/img/icones_menu/love.svg" alt=""><span class="menu-span-paddingl"> 我愛你 / I love you</span></a></li>
+        <li><a href="regret.html"><img src="../public/img/icones_menu/fukushima.svg" alt=""><span class="menu-span-paddingl"> Catastrophe Fukushima </span></a></li>
+        <li><a href="espoir.html"><img src="../public/img/icones_menu/relations.svg" alt=""><span class="menu-flex-wa"> <span class="menu-span-wa">Relations</span><span class="menu-span-wa2 menu-span-paddingl">Sino-Japonaise</span> </span></a></li>
+        <li><a href="Apropos.html"><img src="../public/img/icones_menu/about.svg" alt=""><span class="menu-span-paddingl"> A propos </span></a></li>
+        <li><a href="AutresProjets.html"><img src="../public/img/icones_menu/other.svg" alt=""><span class="menu-span-paddingl"> Autres Projet </span></a></li></ul></nav>
+
+    </header>
+<a href="index.html">
+    <img class="header_logo" src="../public/img/composants/Logo.svg" alt="Logo Jibun">
+    </a><main class="paddingarticles">
     <h1>Kinkaku-ji / Pavillon d’or</h1>
     <h2>Le Kinkaku-ji, temple centenaire et monument touristique majeur</h2>
-    <p>Le Kinkaku-ji ou pavillon d’or en enançais est un temple bouddhiste situé dans la région de Kyoto.</p>
-    <img src="../public/img/images/kinkaku-ji.webp" alt="kinkaku-ji">
+    <p>Le Kinkaku-ji ou pavillon d’or en français est un temple bouddhiste situé dans la région de Kyoto.</p>
+
+    <figure class="Card_article"><img src="../public/img/images/kinkaku-ji.webp" alt="kinkaku-ji">
+        <figcaption>kinkaku-ji </figcaption>
+
+    </figure>
     <p>Il est principalement connu comme étant l’un des monuments touristiques accueillant le plus de visiteurs au fur
         et à mesure des années.
         Depuis le début de sa construction en 1397, le pavillon d’or a connu de nombreux propriétaires et de nombreuses
         destructions…
     </p>
-    <img src="../public/img/images/image 3.webp" alt="Destrution pavillon d'or">
+    <figure class="Card_article2"><img src="../public/img/images/image_3.webp" alt="Destrution pavillon d'or">
+        <figcaption>Destrution pavillon d'or </figcaption>
+
+    </figure>
     <p>Ayant d’abord appartenu au puissant Saionji Kintsune, le temple a changé de nombreuses fois de propriétaire et
-        est progressivement devenu l’un des principaux sites touristiques japonais.
+        est progressivement devenu l’un des principaux sites touristiques Card_articleonais.
     </p>
     <p>
         En passant d’une villa pour le célèbre Saionji Kintsune à un temple zen dirigé par le fils de ce dernier
         jusqu’en 1397.
-        Date à laquelle Yoshimitsu, personnalité importante de la politique japonaise, décide d’investir le lieux et de
+        Date à laquelle Yoshimitsu, personnalité importante de la politique Card_articleonaise, décide d’investir le lieux et de
         construire sa villa destinée à accueillir plusieurs reliques bouddhistes.
         A sa mort, il laisse son fils Yoshimochi faire du Kinkaku-ji un temple zen et ce, fidèlement à ses dernières
         volontés. Le temple est par la suite incendié à de multiples reprises durant la guerre d'Ōnin et seul le fameux
         pavillon d’or a survécu.
     </p>
-    <img src="../public/img/images/image 4.webp" alt="Guerre d'Onin">
+    <figure class="Card_article"><img src="../public/img/images/image_4.webp" alt="Guerre d'Onin">
+        <figcaption>Guerre d'Onin </figcaption>
+
+    </figure>
+
     <p>
         En 1950, le temple est de nouveau incendié par un moine mentalement déficient qui essaye alors de mettre fin à
         ses jours.
@@ -50,20 +78,42 @@
         Le style Karayō pour le second étage style répandu avec les temples zen.
     </p>
     <h2>Lieux similaires</h2>
-    <footer>
-        <img src="../public/img//composants/Logoclair.svg" alt="Logo Jibun">
-        <hr>
-        <nav>
-            <li> <a class="paddingfooter" href="Contact.html">Contact</a></li>
-            <li> <a class="paddingfooter" href="MentionsLegales.html">Mentions Légales</a></li>
-            <li> <a class="paddingfooter" href="Apropos.html">A propos</a></li>
-            <li> <a class="paddingfooter" href="AutresProjets.html">Autres Projets</a></li>
-            <li>
-                <a href="mailto:emil.boucard@gmail.com">emil.boucard@gmail.com</a>
-            </li>
-            <b class="margin">&copy; 2022 Jibun BUT MMI P.S1</b>
-            <p class="droite">Emilien Boucard 1 A1</p>
-    </footer>
+    <div class="frise_main">
+    <div class="frise_parent">
+        <figure class="frise_figure_1"><img class="frise_image_border_radius" src="../public/img/images/image_19.webp" alt="Kawasaki Daishi"><figcaption class="frise_figcaption">
+        Kawasaki Daishi</figcaption></figure>
+        <figure class="frise_figure_2"><img class="frise_image_border_radius" src="../public/img/images/image_20.webp" alt="Joruri-Ji"><figcaption class="frise_figcaption">
+            Joruri-Ji</figcaption></figure>
+        <figure class="frise_figure_3"><img class="frise_image_border_radius" src="../public/img/images/image_21.webp" alt="Engaku-Ji"><figcaption class="frise_figcaption">
+            Engaku-Ji</figcaption></figure>
+        <figure class="frise_figure_4"><img class="frise_image_border_radius" src="../public/img/images/image_5.webp" alt="Toji Temple"><figcaption class="frise_figcaption">
+            Toji Temple</figcaption></figure>
+        
+<img src="../public/img/composants/frise.svg" alt="frise">
+</div>
+   
+</div>
 </main>
+<div id="scrollup">
+    <a href="#top">
+        <img src="../public/img//composants/scrollup.svg" alt="scrollup">
+    </a>
+</div>
+<footer>
+    <img src="../public/img//composants/Logoclair.svg" alt="Logo Jibun">
+    <hr>
+    <nav>
+        <li> <a href="Contact.html">Contact</a></li>
+        <li> <a href="MentionsLegales.html">Mentions Légales</a></li>
+        <li> <a href="Apropos.html">A propos</a></li>
+        <li> <a href="AutresProjets.html">Autres Projets</a></li>
+        <li>
+            <a href="mailto:emil.boucard@gmail.com">emil.boucard@gmail.com</a>
+        </li>
+        <b class="margin">&copy; 2022 Jibun BUT MMI P.S1</b>
+        <p class="droite">Emilien Boucard 1 A1</p>
+    </nav>
+
+</footer>
 
 </html>

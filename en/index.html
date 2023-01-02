@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,119 +11,123 @@
 
 
 
-<body>
+<main>
+    <div >
     <header>
-        <img src="../public/img//Header/menu 1.svg" alt="icones langues">
-        <img src="../public/img//Header/Group 1.svg" alt="icones menu">
+<a href=""><img src="../public/img/Header/menu_1.svg" alt=""></a>
+<div class="nav-toggle" onclick="documentElement.classList.toggle('menu-open')">
+    <div class="nav-toggle-bar "></div>
+</div>
+
+        <nav class="menu">
+         
+            <img class="header_logo" src="../public/img//composants/Logo.svg" alt="Logo Jibun">
+            <ul><li><a href="index.html"><img src="../public/img/icones_menu/home.svg" alt=""><span class="menu-span-paddingl"> Accuei </span>l</a></li>
+        <li><a href="lieu.html"><img src="../public/img/icones_menu/kinkaku.svg" alt=""><span class="menu-span-paddingl"> Kinkaku-ji </span></a></li>
+        <li><a href="livre.html"><img src="../public/img/icones_menu/wa.svg" alt=""> <div class="menu-flex-wa"><span class="menu-span-wa"> Wa, </span> <span class="menu-span-wa2 menu-span-paddingl"> l'essence du design japonais</span></div></a></li>
+        <li><a href="film.html"><img src="../public/img/icones_menu/chateau.svg" alt=""><span class="menu-span-paddingl"> Le château Ambulant </span></a></li>
+        <li><a href="musique.html"><img src="../public/img/icones_menu/love.svg" alt=""><span class="menu-span-paddingl"> 我愛你 / I love you</span></a></li>
+        <li><a href="regret.html"><img src="../public/img/icones_menu/fukushima.svg" alt=""><span class="menu-span-paddingl"> Catastrophe Fukushima </span></a></li>
+        <li><a href="espoir.html"><img src="../public/img/icones_menu/relations.svg" alt=""><span class="menu-flex-wa"> <span class="menu-span-wa">Relations</span><span class="menu-span-wa2 menu-span-paddingl">Sino-Japonaise</span> </span></a></li>
+        <li><a href="Apropos.html"><img src="../public/img/icones_menu/about.svg" alt=""><span class="menu-span-paddingl"> A propos </span></a></li>
+        <li><a href="AutresProjets.html"><img src="../public/img/icones_menu/other.svg" alt=""><span class="menu-span-paddingl"> Autres Projet </span></a></li></ul></nav>
+
     </header>
-    <img id="logo" src="../public/img//composants/Logo.svg" alt="Logo Jibun">
+    <img class="header_logo" src="../public/img//composants/Logo.svg" alt="Logo Jibun">
 
-    <p class="padding">JIBUN, or how to express a message, a thought in a personal way and yet accessible and intended
-        for all.
-
-        Far from the traditional informative websites, Jibun is an intimate experience plunging the user into the heart
-        of my passions, my doubts and my fears...
+    <p class="chapo">JIBUN, ou comment exprimer un message, une pensée de manière personnelle et pourtant accessible
+        et destinée à
+        tous. <br>
+        Bien éloigné des sites informatifs traditionnels, Jibun se présente comme une expérience intime plongeant
+        l’utilisateur au cœur de mes passions, de mes doutes et de mes craintes…
     </p>
-
-
-
-
-    </div>
-
-
-
-
     <section>
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div3">
-                <h3>Wa,
-                    the essence of
-                    Japanese design</h3>
+        <div class="Card_parent">
+            <div class="Card_bg"> </div>
+            <div class="Card_txt">
+                <h3><span class="Card_span_WA"> Wa,</span> <br><span class="Card_span_WA2"> L'essence du design japonais</span></h3>
             </div>
-            <div class="div4"> <img class="arrondie" src="../public/img/images/image 11.webp"
+            <div class="Card_img"> <img class="Card_border_radius" src="../public/img/images/image_11.webp"
                     alt="Wa, l'essence du design japonais"></div>
-            <div class="div2"> <a href="livre.html"> <button class="alignementbouton">Read<img class="marginl"
-                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></button></a> </div>
+            <div class="Card_btn">  <button class="Card_btn_align"><a href="livre.html">Lire <img class="marginl"
+                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></a></button> </div>
         </div>
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div3">
-                <h3>Kinkaku-ji
-                    the golden
-                    pavilion</h3>
+        <div class="Card_parent">
+            <div class="Card_bg"> </div>
+            <div class="Card_txt">
+                <h3><span class="Card_span_KINKAKU"> Kinkaku-ji </span><br><span class="Card_span_KINKAKU2"> Le Pavillon d'or</span></h3>
             </div>
-            <div class="div4"> <img class="arrondie" src="../public/img/images/image 9.webp"
+            <div class="Card_img"> <img class="Card_border_radius" src="../public/img/images/image_9.webp"
                     alt="Kinkaku-ji Le Pavillon d'or"></div>
-            <div class="div2"> <a href="lieu.html"> <button class="alignementbouton">Read<img class="marginl"
-                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></button></a> </div>
+            <div class="Card_btn">  <button class="Card_btn_align"><a href="lieu.html">Lire <img class="marginl"
+                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></a></button> </div>
         </div>
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div3">
-                <h3>The Howl’s
-                    Castle</h3>
+        <div class="Card_parent">
+            <div class="Card_bg"> </div>
+            <div class="Card_txt">
+                <h3><span class="Card_span_CASTLE"> Le Château <br> Ambulant </span></h3>
             </div>
-            <div class="div4"> <img class="arrondie" src="../public/img/images/image 10.webp" alt="Le Château Ambulant">
+            <div class="Card_img"> <img class="Card_border_radius" src="../public/img/images/image_10.webp" alt="Le Château Ambulant">
             </div>
-            <div class="div2"> <a href="film.html"> <button class="alignementbouton">Read<img class="marginl"
-                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></button></a> </div>
+            <div class="Card_btn"> <button class="Card_btn_align"><a href="film.html"> Lire <img class="marginl"
+                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></a></button> </div>
         </div>
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div3">
-                <h3>我愛你 <br> I love you</h3>
+        <div class="Card_parent">
+            <div class="Card_bg"> </div>
+            <div class="Card_txt">
+                <h3><span class="Card_span_MUSIC"> 我愛你 </span><br><span class="Card_span_MUSIC2"> I love you</span></h3>
             </div>
-            <div class="div4"> <img class="arrondie" src="../public/img/images/image 2.webp" alt="我愛你 I love you"></div>
-            <div class="div2"> <a href="musique.html"> <button class="alignementbouton">Read<img class="marginl"
-                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></button></a> </div>
+            <div class="Card_img"> <img class="Card_border_radius" src="../public/img/images/image_2.webp" alt="我愛你 I love you"></div>
+            <div class="Card_btn">  <button class="Card_btn_align"><a href="musique.html">Lire <img class="marginl"
+                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></a></button> </div>
         </div>
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div3">
-                <h3>Fukushima
-                    Disaster</h3>
+        <div class="Card_parent">
+            <div class="Card_bg"> </div>
+            <div class="Card_txt">
+                <h3><span class="Card_span_FUKUSHIMA"> Fukushima</span><span class="Card_span_FUKUSHIMA2"> Catastrophe nucléaire </span></h3>
             </div>
-            <div class="div4"> <img class="arrondie" src="../public/img/images/image 12.webp"
+            <div class="Card_img"> <img class="Card_border_radius" src="../public/img/images/image_12.webp"
                     alt="Fukushima Catastrophe nucléaire"></div>
-            <div class="div2"> <a href="regret.html"> <button class="alignementbouton">Read<img class="marginl"
-                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></button></a> </div>
+            <div class="Card_btn">  <button class="Card_btn_align"><a href="regret.html">Lire <img class="marginl"
+                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></a></button> </div>
         </div>
-        <div class="parent">
-            <div class="div1"> </div>
-            <div class="div3">
-                <h3>Sino-Japanese
-                    Relations
+        <div class="Card_parent">
+            <div class="Card_bg"> </div>
+            <div class="Card_txt">
+                <h3><span class="Card_span_RELATIONS"> Relations</span><span class="Card_span_RELATIONS2">
+                    Sino-Japonaise</span>
                 </h3>
             </div>
-            <div class="div4"> <img class="arrondie" src="../public/img/images/image 13.webp"
+            <div class="Card_img"> <img class="Card_border_radius" src="../public/img/images/image_13.webp"
                     alt="Fukushima Catastrophe nucléaire"></div>
-            <div class="div2"> <a href="espoir.html"> <button class="alignementbouton">Read<img class="marginl"
-                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></button></a> </div>
+            <div class="Card_btn">  <button class="Card_btn_align"><a href="espoir.html">Lire <img class="marginl"
+                            src="../public/img/composants/flechedroite.svg" alt="fleche droite"></a></button> </div>
         </div>
 
     </section>
 
-    <section id="scrollup">
+    <div id="scrollup">
         <a href="#top">
-            <img src="../public/img//composants/scroll up.svg" alt="scroll up">
+            <img src="../public/img//composants/scrollup.svg" alt="scrollup">
         </a>
-    </section>
+    </div>
 
 
     <footer>
         <img src="../public/img//composants/Logoclair.svg" alt="Logo Jibun">
         <hr>
         <nav>
-            <li> <a class="paddingfooter" href="Contact.html">Contact</a></li>
-            <li> <a class="paddingfooter" href="MentionsLegales.html">Legal information</a></li>
-            <li> <a class="paddingfooter" href="Apropos.html">About</a></li>
-            <li> <a class="paddingfooter" href="AutresProjets.html">Other Projects</a></li>
+            <li> <a href="Contact.html">Contact</a></li>
+            <li> <a href="MentionsLegales.html">Mentions Légales</a></li>
+            <li> <a href="Apropos.html">A propos</a></li>
+            <li> <a href="AutresProjets.html">Autres Projets</a></li>
             <li>
                 <a href="mailto:emil.boucard@gmail.com">emil.boucard@gmail.com</a>
             </li>
             <b class="margin">&copy; 2022 Jibun BUT MMI P.S1</b>
             <p class="droite">Emilien Boucard 1 A1</p>
+        </nav>
 
     </footer>
-</body>
+</div>
+</main>
