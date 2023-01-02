@@ -6,6 +6,7 @@
 .ap_corps {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    padding-bottom: 30px;
 }
 
 .ap-card {
@@ -18,12 +19,24 @@
     max-width: 70%;
 }
 .ap-card hr{
-    color: var(--noir);
-    padding: 30px;
+   padding-left: 70%;
+   padding-right: 70%;
+        margin: 1.25rem;
+        color: var(--noir);
+    
 }
-.ap-project-name{
+.ap-project-title{
     font-weight: bold;
     font-family: var(--ubuntu);
     line-height: 1px;
     font-size: 1.5rem;
+    color: var(--noir);
+}
+.ap-project-name{
+    font-family: var(--ubuntu);
+    font-weight: lighter;
+    line-height: 1px;
+    font-size: 1.5rem;
+    color: var(--noir);
+    margin-top: 10px;
 }
