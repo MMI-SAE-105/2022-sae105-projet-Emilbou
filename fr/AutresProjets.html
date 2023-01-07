@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jibun</title>
     <link rel="stylesheet" href="../src/styles.css">
+    <link href="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.css" 
+    rel="stylesheet">
+<script src="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.js" 
+    type="text/javascript"></script>
 </head>
 
 <header>
@@ -34,6 +38,14 @@
     </a>
     <main>
         <h1 class="ap_title">Autres Projets</h1>
+        <video
+        width=400
+        height=200
+        id="example-player"
+        controls
+        muted
+        class="cld-video-player cld-video-player-skin-dark">
+      </video>
         <p class="ap_corps">Section “autres projets” dédiées à l’ensemble des sites réalisés par les membres du groupe de Travaux pratiques 1A1.</p>
 <card class="ap-card">
     <a href="https://sweet-old-times.jael-amemoutou.fr/">
@@ -131,5 +143,10 @@
 
     </footer>
 
-
+    <script>
+        var cld = cloudinary.videoPlayer('example-player', { 
+            cloud_name: 'da5g85vfs', //remplacer par votre id cloudinary 
+            sourceTypes: ['hls','dash','webm/vp9','mp4/h265','mp4']});
+        cld.source('SAEFR_nt8dxe'); //à remplacer après avoir uploader une vidéo
+        </script>
 </html>
